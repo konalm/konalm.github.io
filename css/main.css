@@ -1,0 +1,81 @@
+
+.allContentHolder {
+
+	border:0px solid purple; 
+	width:950px; 
+	float:center;
+	margin-left:70px;
+}
+
+
+.introText {
+
+	border:0px solid red;
+	height:auto;
+	text-align:left;
+	padding:20px;
+	font-family: sans-serif;
+	color:rgb(50,50,50);
+	font-size:15px;
+}
+
+
+.bioContainer {
+
+	border:0px solid grey; 
+	width:930px; 
+	float:center;
+	height:400px;
+	margin-left:0px;
+}
+
+.contactContainer {
+
+	border:0px solid grey; 
+	width:930px; 
+	float:center;
+	/* height:400px; */ 
+	height:auto;
+	margin-left:0px;
+}
+
+
+.bio {
+
+	border:0px solid blue;
+	height:380px;
+	text-align:left;
+	font-family: sans-serif;
+	color:rgb(50,50,50);
+	font-size:15px;
+	padding:20px;
+	width:690px;
+	float:right;
+}
+
+
+.bioLeft {
+
+	width:200px;
+	height:380px;
+	border:0px solid yellow;
+	float: left; 
+	padding:15px;
+}
+
+
+.bio img {
+
+	border:0px solid red;
+	float:left;
+}
+
+
+.contactCol {
+
+	width:300px;
+	float left; 
+	color:rgb(50,50,50);
+	border:0px solid green;
+	padding:10px;
+}
