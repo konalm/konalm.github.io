@@ -1,15 +1,13 @@
 
 .allContentHolder {
-
-	border:0px solid purple; 
-	width:950px; 
+	border:0px solid purple;
+	max-width:950px;
 	float:center;
 	margin-left:70px;
 }
 
 
 .introText {
-
 	border:0px solid red;
 	height:auto;
 	text-align:left;
@@ -21,61 +19,72 @@
 
 
 .bioContainer {
-
-	border:0px solid grey; 
-	width:930px; 
+	border:0px solid grey;
+	max-width:930px;
 	float:center;
-	height:400px;
+	overflow: hidden;
 	margin-left:0px;
 }
 
 .contactContainer {
-
-	border:0px solid grey; 
-	width:930px; 
+	border:0px solid grey;
+	width:930px;
 	float:center;
-	/* height:400px; */ 
 	height:auto;
 	margin-left:0px;
 }
 
 
 .bio {
-
-	border:0px solid blue;
-	height:380px;
 	text-align:left;
 	font-family: sans-serif;
 	color:rgb(50,50,50);
 	font-size:15px;
-	padding:20px;
-	width:690px;
+	padding:0 0 0 20px;
+	width: calc(100% - 200px);
 	float:right;
 }
 
 
 .bioLeft {
-
 	width:200px;
-	height:380px;
-	border:0px solid yellow;
-	float: left; 
-	padding:15px;
+	height:auto;
+	float: left;
 }
 
 
 .bio img {
-
 	border:0px solid red;
 	float:left;
 }
 
 
 .contactCol {
-
 	width:300px;
-	float left; 
+	float left;
 	color:rgb(50,50,50);
 	border:0px solid green;
 	padding:10px;
+}
+
+.bioImageContainer {
+	width: 100%;
+	height: 130px;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+	.bioImageContainer {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.bioLeft {
+		display: none;
+	}
+
+	.bio {
+		width: 100%;
+	}
 }
